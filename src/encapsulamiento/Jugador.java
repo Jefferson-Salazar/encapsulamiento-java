@@ -20,4 +20,16 @@ public class Jugador {
             System.out.println("Puntaje invalido");
         }
     }
+    
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getPuntajeActual() {
+        return puntajeActual;
+    }
+
+    public int getPuntajeMaximo() {
+        return puntajeMaximo;
+    }
 }

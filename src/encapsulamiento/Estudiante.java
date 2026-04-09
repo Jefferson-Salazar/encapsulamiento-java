@@ -24,4 +24,16 @@ public class Estudiante {
     public boolean esBecado() {
         return promedio >= 85;
     }
+    
+    public String getCarnet() {
+        return carnet;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public double getPromedio() {
+        return promedio;
+    }
 }

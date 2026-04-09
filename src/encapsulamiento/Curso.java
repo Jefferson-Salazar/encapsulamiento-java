@@ -45,4 +45,8 @@ public class Curso {
             return "Reprobado";
         }
     }
+    
+    public String getNombreCurso() {
+        return nombreCurso;
+    }
 }

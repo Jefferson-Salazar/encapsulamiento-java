@@ -32,4 +32,16 @@ public class Reloj {
     public String mostrarHora() {
         return String.format("%02d:%02d:%02d", hora, minuto, segundo);
     }
+    
+    public int getHora() {
+        return hora;
+    }
+
+    public int getMinuto() {
+        return minuto;
+    }
+
+    public int getSegundo() {
+        return segundo;
+    }
 }

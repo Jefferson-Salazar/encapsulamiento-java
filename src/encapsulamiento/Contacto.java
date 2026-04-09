@@ -28,4 +28,16 @@ public class Contacto {
     public void mostrarContacto() {
         System.out.println(nombre + " - " + telefono + " - " + email);
     }
+    
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 }

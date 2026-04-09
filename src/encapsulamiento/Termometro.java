@@ -14,4 +14,8 @@ public class Termometro {
     public double getFahrenheit() {
         return (celsius * 9/5) + 32;
     }
+    
+    public double getCelsius() {
+        return celsius;
+    }
 }

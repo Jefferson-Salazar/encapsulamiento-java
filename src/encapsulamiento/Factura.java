@@ -41,4 +41,20 @@ public class Factura {
         System.out.println("Precio Unitario: " + precioUnitario);
         System.out.println("Total: " + calcularTotal());
     }
+    
+    public String getCodigoFactura() {
+        return codigoFactura;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public double getPrecioUnitario() {
+        return precioUnitario;
+    }
 }
