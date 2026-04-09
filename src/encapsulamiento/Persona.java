@@ -17,6 +17,11 @@ public class Persona {
     }
 
     public void setEdad(int edad) {
-        this.edad = edad;
+        if (edad < 0) {
+            this.edad = 0;
+            System.out.println("Edad no válida");
+        } else {
+            this.edad = edad;
+        }
     }
 }
